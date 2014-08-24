@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Y8e-cC-O8x">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="14A329r" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Y8e-cC-O8x">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - Студенты-->
+        <!--Студенты-->
         <scene sceneID="D1L-s0-iTL">
             <objects>
                 <tableViewController id="V05-h2-rAb" customClass="TableViewController" sceneMemberID="viewController">
@@ -105,7 +106,7 @@
             </objects>
             <point key="canvasLocation" x="1018" y="383"/>
         </scene>
-        <!--Navigation Controller - Студенты-->
+        <!--Студенты-->
         <scene sceneID="ZFn-Rv-mpC">
             <objects>
                 <navigationController id="1Gu-1k-ARU" sceneMemberID="viewController">
@@ -210,7 +211,7 @@
             </objects>
             <point key="canvasLocation" x="-294" y="79"/>
         </scene>
-        <!--Courses Controller - Курсы-->
+        <!--Курсы-->
         <scene sceneID="rpV-OZ-iAq">
             <objects>
                 <tableViewController id="L7R-YK-UF5" customClass="CoursesController" sceneMemberID="viewController">
@@ -243,7 +244,7 @@
             </objects>
             <point key="canvasLocation" x="596" y="-263"/>
         </scene>
-        <!--Navigation Controller - Курсы-->
+        <!--Курсы-->
         <scene sceneID="5Rg-bg-nYj">
             <objects>
                 <navigationController id="807-VV-hul" sceneMemberID="viewController">
@@ -466,7 +467,7 @@
             </objects>
             <point key="canvasLocation" x="1446" y="-263"/>
         </scene>
-        <!--Add New Students - Title-->
+        <!--Title-->
         <scene sceneID="aJB-Dg-sVP">
             <objects>
                 <tableViewController storyboardIdentifier="addNewStudents" id="2Li-cj-8Rn" customClass="addNewStudents" sceneMemberID="viewController">
@@ -515,7 +516,7 @@
             </objects>
             <point key="canvasLocation" x="1836" y="-263"/>
         </scene>
-        <!--Teachers Controller - Преподаватели-->
+        <!--Преподаватели-->
         <scene sceneID="Q0c-uZ-geG">
             <objects>
                 <tableViewController id="6Of-JE-0TT" customClass="teachersController" sceneMemberID="viewController">
@@ -542,7 +543,7 @@
             </objects>
             <point key="canvasLocation" x="596" y="-885"/>
         </scene>
-        <!--Navigation Controller - Преподаватели-->
+        <!--Преподаватели-->
         <scene sceneID="0pD-Rx-mzT">
             <objects>
                 <navigationController id="ZD3-XX-LlI" sceneMemberID="viewController">
@@ -572,6 +573,9 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
     </simulatedMetricsContainer>
 </document>
